@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Mes expériences scolaire</title>
+    <link rel="shortcut icon" href="Images/icon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="fonctions.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="SITE_HEADER">
+            <div class="Bandeau">
+                <img src="Images/pdp.jpg" alt="Photo de profil">
+                <div class="Onglet">
+                    <button class="lien-onglet" onclick="ouvrir_onglet('index.html')"
+                        style="height: 100px;width:200px">Accueil</button>
+                    <button class="lien-onglet" onclick="ouvrir_onglet('CV.html')"
+                        style="height: 100px;width:200px">CV</button>
+                    <button class="lien-onglet" onclick="ouvrir_onglet('Experiences_professionnelles.html')"
+                        style="height: 100px;width:200px">Expériences professionnelles</button>
+                    <button class="lien-onglet" onclick="ouvrir_onglet('Experiences_personnelles.html')"
+                        style="height: 100px;width:200px">Expériences personnelles</button>
+                    <button class="lien-onglet" onclick="ouvrir_onglet('Contact.html')"
+                        style="height: 100px;width:200px">Contact</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Mes expériences scolaires</h1>
+        <div class="P3">Cette liste a été éffectué de l'expérience la plus récente à la plus ancienne</div>
+        <ol id="maListe">
+            <li class="item">BTS SNIR</li>
+            <li class="item hidden" id="desc">Mon parcours d'études supérieures a été réalisé au sein de l'établissement
+                Saint-Aubin La Salle à Angers.<br>
+                Durant deux années j'ai préparé et <strong>obtenu mon BTS SNIR</strong> (système numérique informatique et réseau).<br><br>
+                J'ai au cours de ma deuxième année étée <strong>président du BDE</strong>, ce qui consistait à préparer et organiser des
+                évènements pour les étudiants du campus ainsi que des rencontres inter-BDE afin de pouvoir organiser de
+                plus grands évènements accueillant plusieurs campus.<br>
+                En plus de mon BTS SNIR, j'ai également décroché <u>les palmes de Saint Aubin La Salle, une distinction
+                réservée à l'élève
+                qui s'investit le plus dans le campus</u>.<br><br>
+                En deuxième année, j'ai été chargé de réaliser un <strong>projet de fin
+                d'année</strong>.<br>
+                Celui-ci avait pour but de développer de nombreuses compétences comme l'autonomie, l'esprit d'équipe, la
+                compréhension, la communication...<br>
+                J'ai donc dû concevoir, développer et réaliser un projet pour un commanditaire qui souhaitait concevoir
+                un système permettant
+                d'aider les citoyens d'une ville à connaitre le taux de pollution, polene, températures, pression
+                atmosphérique et humidité.<br>
+                Ma partie à donc été de <strong>concevoir un sous-système</strong> permettant de <strong>collecter</strong> les données demandées partout
+                dans la ville et de les <strong>transmettre</strong> à l'aide du protocole LoraWan vers un cloud qui elle-même
+                permettrait d'<strong>afficher</strong> ses données sur un site web consultable par des utilisateurs et permettant de les
+                <strong>alerter</strong> si leurs seuils sont dépassés.<br>
+            </li>
+            <li class="item">Bac STI2D</li>
+            <li class="item hidden" id="desc">Mes années de Bac ce sont dans le Lycée Polyvalent Chevrollier à Angers
+                dans lequel j'ai obtenu mon <strong>Bac STI2D</strong>
+                (sciences et technologies de l'industrie et du développement durable).<br> J'ai en fin de cursurs du
+                concevoir et réaliser une ruche d'abeille connecté.
+                J'avais comme tâche de devoir gérer et collecter les données température au sein de la ruche afin de
+                prédire toute situation anormale ou dangereuse pour les abeilles.</li>
+
+        </ol>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

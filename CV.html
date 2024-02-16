@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mon CV</title>
+    <link rel="shortcut icon" href="Images/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script src="fonctions.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="SITE_HEADER">
+            <div class="Bandeau">
+                <img src="Images/pdp.jpg" alt="Photo de profil">
+                <div class="Onglet">
+                    <button class="lien-onglet" onclick="ouvrir_onglet('index.html')"
+                        style="height: 100px;width:200px">Accueil</button>
+                    <button class="lien-onglet" onclick="ouvrir_onglet('Experiences_professionnelles.html')"
+                        style="height: 100px;width:200px">Experiences professionnelles</button>
+                    <button class="lien-onglet" onclick="ouvrir_onglet('Experiences_personnelles.html')"
+                        style="height: 100px;width:200px">Experiences personnelles</button>
+                    <button class="lien-onglet" onclick="ouvrir_onglet('Experiences_scolaire.html')"
+                        style="height: 100px;width:200px">Expériences scolaire</button>
+                    <button class="lien-onglet" onclick="ouvrir_onglet('Contact.html')"
+                        style="height: 100px;width:200px">Contact</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Mon CV</h1>
+        <div class="PDF">
+            <embed src="pdf/CV.pdf" type="application/pdf" width="800" height="1200" />
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

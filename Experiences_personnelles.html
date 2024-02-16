@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Mes expériences personnelles</title>
+    <link rel="shortcut icon" href="Images/icon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="fonctions.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="SITE_HEADER">
+            <div class="Bandeau">
+                <img src="Images/pdp.jpg" alt="Photo de profil">
+                <div class="Onglet">
+                    <button class="lien-onglet" onclick="ouvrir_onglet('index.html')"
+                        style="height: 100px;width:200px">Accueil</button>
+                    <button class="lien-onglet" onclick="ouvrir_onglet('CV.html')"
+                        style="height: 100px;width:200px">CV</button>
+                    <button class="lien-onglet" onclick="ouvrir_onglet('Experiences_professionnelles.html')"
+                        style="height: 100px;width:200px">Expériences professionnelles</button>
+                    <button class="lien-onglet" onclick="ouvrir_onglet('Experiences_scolaire.html')"
+                        style="height: 100px;width:200px">Expériences scolaire</button>
+                    <button class="lien-onglet" onclick="ouvrir_onglet('Contact.html')"
+                        style="height: 100px;width:200px">Contact</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Mes expériences personnelles</h1>
+        <div class="P3">Cette liste a été éffectué de l'expérience la plus récente à la plus ancienne</div>
+        <ol id="maListe">
+            <li class="item">Portfolio</li>
+            <li class="item hidden" id="desc">
+                Ce portfolio a été conçu dans le but de me présenter ainsi que de mettre en évidence les différentes
+                compétences que
+                j'ai acquises dans le domaine du développement web.<br>
+                Pour le développer, j'ai fait usage de <u>HTML, de CSS et de JavaScript</u>.<br>
+                Dans le but de rendre mon site et mon programme
+                plus légers, j'ai utilisé un seul fichier CSS comme base.<br>
+                Pour ce qui est du JavaScript est j'ai comme pour le CSS créer un fichier afin que toutes mes fonctions
+                soient au même
+                endroit et utilisable dans tous mes fichiers HTML.<br>
+                Dans mon portfolio, chaque page possède son propre fichier HTML avec des noms correspondant à leur
+                contenu.
+            </li>
+            <li class="item">Bot discord</li>
+            <li class="item hidden" id="desc">J'ai il y a quelques mois de cela voulu m'atteler à la conception d'un bot
+                discord dans le but de créer plusieurs
+                interactions avec des utilisateurs, comme la gestion d'expériences en fonction des messages envoyés, un
+                système de
+                modération ou de commandes amusantes.<br>J'ai utilisé <strong>JavaScript</strong> pour coder ce programme afin de pouvoir
+                lier mon programme
+                à une <strong>base de données</strong> et concevoir des fonctions interactives avec l'utilisateur.
+            </li>
+        </ol>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

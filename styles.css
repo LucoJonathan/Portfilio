@@ -1,0 +1,188 @@
+
+    body{
+        background-color: rgb(245,245,245);
+        font-family: Arial, sans-serif;
+        margin-bottom: 60px;
+        
+    }
+    main{
+        z-index: 2;
+        max-height: calc(112vh - 150px);
+        overflow-y: auto;
+    }
+    
+    .Bandeau {
+        position: fixed; /* Utilisez position: fixed si vous souhaitez que le header reste fixe en haut de la page lors du défilement */
+        top: 0;
+        right: 0; /* Aligne le header à droite */
+        width: 100vw;
+        height: 100px;
+        z-index: 100; /*assure que le header soit la couche la plus haute*/
+        background-color: rgba(51, 51, 51, 1);
+    }
+    
+
+    img {
+        height: 100px;
+        width: 100px;
+        top: 0px;
+        left: 0px;
+    }
+
+    .Onglet {
+        position: fixed;
+        display: inline-block;
+        /*Met le bouton en haut*/
+        top: 0;
+        /*Décale l'onglet de 100px sur la droite*/
+        left: 100px;
+        padding: 0,0;
+        transition: background-color ease 3s;
+    }
+
+    .lien-onglet
+    {
+        cursor: pointer;
+    }
+
+    /*Design des boutons de l'onglet*/
+
+    button {
+        background-color: rgb(245, 245, 220);
+        font-size: 14px;
+        border-bottom: none;
+        border-top: none;
+    }
+
+    b
+    {
+        font-size: x-large;
+    }
+
+    u{
+        color: red;
+    }
+
+    p{
+        margin-top: 5;
+    }
+
+    /*1er Titre des pages*/
+
+    h1 {
+
+        text-align: center;
+        margin-top: 100px;
+        font-size: xx-large;
+    }
+
+    .P1{
+        margin-top : 10px;
+        font-size: larger;
+    }
+
+    .P2{
+        margin-top:10px;
+        text-align: center;
+        font-size: larger;
+    }
+
+    /*2ème titre de l'index*/
+    h2 {
+        text-align: center;
+        margin-top: 10px;
+        font-size: x-large;
+    }
+
+    .P3{
+        margin-top: 10px;
+        text-align: center;
+        font-size: larger;
+    }
+
+    /* Experiences pro perso scolaire*/
+
+    /* Disign de la liste ordonné*/
+
+    ol{
+
+        width: 500px;
+        margin:0px auto;
+        list-style: none;
+    }
+
+    /* Disign des éléments de la liste*/
+    ol li
+    {
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        background-color: rgb(120, 140, 160);
+        padding: 20px 30px;
+        margin: 10px 0;
+        cursor: pointer;
+        transition: all .4s;
+    }
+
+    #desc
+    {
+        background-color: rgb(180, 180, 200);
+        u{
+            color:black;
+            font-weight: bold;
+        }
+    }
+
+    ol li::before
+    {
+        position: absolute;
+        height: 100%;
+        width: 5px;
+        transition: all .4s;
+    }
+
+    ol li:hover
+    {
+        transform: translateX(20px);
+    }
+    ol li:hover::before
+    {
+        width: 100%;
+    }
+
+
+    .hidden {
+        display: none;
+        /* Vous pouvez personnaliser les styles de l'élément caché ici */
+    }
+
+
+    /* Page CV*/
+
+    .PDF{
+        justify-content: center;
+        display: flex;
+    }
+
+    /* Page Contact*/
+
+    .LinkedIn
+    {
+        text-align: center;
+    }
+
+    .Mail
+    {
+        text-align: center;
+    }
+
+    /*Bas de page*/
+ 
+    footer {
+        position: fixed; /* Utilisez position: fixed si vous souhaitez que le footer reste fixe en bas de la page lors du défilement */
+        bottom: 0;
+        right: 0; /* Aligne le footer à droite */
+        width: 100vw;
+        height: 50px;
+        background-color: rgba(51, 51, 51, 1);
+    }
